@@ -1,19 +1,23 @@
-.wrapper{
-    max-width: 70rem;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: flex-start;
+body {
+	font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 768px){
+.wrapper {
+	max-width: 70rem;
+	margin: 2rem auto;
+	padding: 0 1rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: flex-start;
+}
 
-    html{
-        font-size: 87.5%;
-    }
+@media (max-width: 768px) {
 
-    .wrapper{
-        grid-template-columns: 1fr;
-    }
+	html {
+		font-size: 87.5%;
+	}
+
+	.wrapper {
+		grid-template-columns: 1fr;
+	}
 }

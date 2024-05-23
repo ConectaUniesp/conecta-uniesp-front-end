@@ -16,9 +16,9 @@ const Footer = () => {
 				<div className={style.icons}>
 					<img src={home} alt="" onClick={() => navigate('/')} />
 					<img src={search} alt="" />
-					<img style={{height: "6rem"}} src={ellipse_plus} alt="" />
+					<img style={{ height: "6rem" }} src={ellipse_plus} alt="" />
 					<img src={chat} alt="" />
-					<img src={user} alt="" />
+					<img src={user} alt="" onClick={() => navigate('/perfil')} />
 				</div>
 			</div>
 		</>
