@@ -1,4 +1,4 @@
-import style from './Footer.module.css';
+import style from '../css/Footer.module.css';
 import chat from '../assets/chat.svg';
 import ellipse_plus from '../assets/ellipse_plus.svg';
 import home from '../assets/home.svg';
